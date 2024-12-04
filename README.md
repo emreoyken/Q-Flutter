@@ -8,9 +8,10 @@
 Kullanıcıların hava durumu bilgilerine hızlı ve kullanıcı dostu bir şekilde erişmelerini sağlamak, farklı şehirlerdeki hava durumu verilerini sunmak ve basit, etkili bir deneyim sunmak. 
 
 ## Ekibimiz 
-**Danışman:** 
+- **Danışman:** 
+
 https://github.com/keyvanarasteh(Keyvan Arasteh)
-**Takım Üyeleri**:
+- **Takım Üyeleri**:
 [GİT HUB](https://github.com/emreoyken)
 
 ## Özellikler
