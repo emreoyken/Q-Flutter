@@ -10,7 +10,7 @@ Kullanıcıların hava durumu bilgilerine hızlı ve kullanıcı dostu bir şeki
 ## Ekibimiz 
 - **Danışman:** 
 
-https://github.com/keyvanarasteh(Keyvan Arasteh)
+https://github.com/keyvanarasteh (Keyvan Arasteh)
 - **Takım Üyeleri**:
 [GİT HUB](https://github.com/emreoyken)
 
