@@ -1,11 +1,9 @@
-// ana ekran
 
 import 'package:dotlottie_loader/dotlottie_loader.dart';
 import 'package:flutter/material.dart';
 import 'package:flutter/cupertino.dart';
 import 'package:go_router/go_router.dart';
 import 'package:lottie/lottie.dart';
-
 import '../core/constants.dart';
 import '../widgets/bottom_menu.dart';
 
@@ -18,10 +16,12 @@ class HomeScreen extends StatelessWidget {
       backgroundColor: arkaplanRenkim, // .fromARGB(255, 35, 47, 59),
       // AppBar
       appBar: AppBar(
+        title: const Text('Ana Sayfa'),
         backgroundColor: Colors.white,
         title: const Text('Q'),
         actions: [
           IconButton(
+            icon: const Icon(CupertinoIcons.bell),
             icon: const Icon(CupertinoIcons.app),
             onPressed: () {},
           ),
@@ -37,6 +37,7 @@ class HomeScreen extends StatelessWidget {
             // Drawer Header
             Container(
               height: 200,
+              color: Colors.blue,
               // color: Colors.blue,
               child: Column(
                 mainAxisAlignment: MainAxisAlignment.center,
@@ -44,21 +45,24 @@ class HomeScreen extends StatelessWidget {
                   const Icon(
                     CupertinoIcons.person_circle,
                     size: 80,
+                    color: Colors.white,
                     color: Colors.black87,
                   ),
                   const SizedBox(height: 10),
+                  const Text(
+                    'Kullanıcı Adı',
+                    style: TextStyle(
+                      color: Colors.white,
+                      fontSize: 18,
+                    ),
+                  ),
                 ],
               ),
             ),
-            // Menü öğeleri
-            ListTile(
-              leading: const Icon(CupertinoIcons.home),
-              title: const Text('Ana Sayfa'),
-              onTap: () {
+@@ -55,6 +58,21 @@ class HomeScreen extends StatelessWidget {
                 Navigator.pop(context);
               },
             ),
-
             ListTile(
               leading: const Icon(CupertinoIcons.search),
               title: const Text('History'),
@@ -76,20 +80,11 @@ class HomeScreen extends StatelessWidget {
             ListTile(
               leading: const Icon(CupertinoIcons.settings),
               title: const Text('Ayarlar'),
-              onTap: () {
-                Navigator.pop(context);
-              },
-            ),
-          ],
-        ),
-      ),
-
-      // Ana içerik
-      body: Column(
-        children: [
+@@ -72,32 +90,26 @@ class HomeScreen extends StatelessWidget {
           Expanded(
             child: Container(
               padding: const EdgeInsets.all(16),
+              child: const Text('Ana Sayfa İçeriği'),
               child: SizedBox(
                 width: double.infinity,
                 child: DotLottieLoader.fromAsset(
@@ -109,6 +104,25 @@ class HomeScreen extends StatelessWidget {
       ),
 
       // Alt navigasyon çubuğu
+      bottomNavigationBar: BottomNavigationBar(
+        items: const [
+          BottomNavigationBarItem(
+            icon: Icon(CupertinoIcons.home),
+            label: 'Ana Sayfa',
+          ),
+          BottomNavigationBarItem(
+            icon: Icon(CupertinoIcons.search),
+            label: 'Keşfet',
+          ),
+          BottomNavigationBarItem(
+            icon: Icon(CupertinoIcons.person),
+            label: 'Profil',
+          ),
+        ],
+        onTap: (index) {
+          // Navigasyon işlemleri buraya gelecek
+        },
+      ),
       bottomNavigationBar: BottomMenu(),
     );
   }

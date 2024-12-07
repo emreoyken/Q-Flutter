@@ -1,6 +1,5 @@
 // uygulamada sayfalari ve navigasyon islemlerini burada tanimlicaz
 
-import 'package:flutter/material.dart';
 import 'package:go_router/go_router.dart';
 import '../screens/history_screen.dart';
 import '../screens/loading_screen.dart';
@@ -31,7 +30,7 @@ final router = GoRouter(
     ),
     GoRoute(
       path: '/search',
-      builder: (context, state) => const Search_Screen(),
+      builder: (context, state) => const SearchScreen(),
     ),
     GoRoute(
       path: '/history',
