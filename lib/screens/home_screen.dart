@@ -7,6 +7,7 @@ import 'package:lottie/lottie.dart';
 import '../core/constants.dart';
 import '../widgets/bottom_menu.dart';
 
+
 class HomeScreen extends StatelessWidget {
   const HomeScreen({super.key});
 
@@ -29,47 +30,29 @@ class HomeScreen extends StatelessWidget {
       ),
 
       // Drawer (Yan Menü)
-      drawer: Drawer(
-        backgroundColor: arkaplanRenkim,
-        elevation: 0,
-        child: Column(
-          children: [
-            // Drawer Header
-            Container(
-              height: 200,
-              color: Colors.blue,
-              // color: Colors.blue,
-              child: Column(
-                mainAxisAlignment: MainAxisAlignment.center,
-                children: [
-                  const Icon(
-                    CupertinoIcons.person_circle,
-                    size: 80,
-                    color: Colors.white,
-                    color: Colors.black87,
-                  ),
-                  const SizedBox(height: 10),
-                  const Text(
-                    'Kullanıcı Adı',
-                    style: TextStyle(
-                      color: Colors.white,
-                      fontSize: 18,
-                    ),
-                  ),
-                ],
-              ),
-            ),
-@@ -55,6 +58,21 @@ class HomeScreen extends StatelessWidget {
-                Navigator.pop(context);
-              },
-            ),
-            ListTile(
-              leading: const Icon(CupertinoIcons.search),
-              title: const Text('History'),
-              onTap: () {
-                Navigator.pop(context);
-              },
-            ),
+    drawer: Drawer(
+  backgroundColor: arkaplanRenkim,
+  elevation: 0,
+  child: ListView(
+    children: [
+      ListTile(
+        leading: Icon(CupertinoIcons.search),
+        title: Text('History'),
+        onTap: () {
+          Navigator.pop(context);
+        },
+      ),
+      ListTile(
+        leading: Icon(CupertinoIcons.person),
+        title: Text('Profile'),
+        onTap: () {
+          // 
+        },
+      ),
+    ],
+  ),
+),
+
             ListTile(
               leading: const Icon(CupertinoIcons.person),
               title: const Text('Profile'),
@@ -124,6 +107,37 @@ class HomeScreen extends StatelessWidget {
         },
       ),
       bottomNavigationBar: BottomMenu(),
+        child: Column(
+          children: [
+            // Drawer Header
+            Container(
+              height: 200,
+              color: Colors.blue,
+              // color: Colors.blue,
+              child: Column(
+                mainAxisAlignment: MainAxisAlignment.center,
+                children: [
+                  const Icon(
+                    CupertinoIcons.person_circle,
+                    size: 80,
+                    color: Colors.white,
+                    color: Colors.black87,
+                  ),
+                  const SizedBox(height: 10),
+                  const Text(
+                    'Kullanıcı Adı',
+                    style: TextStyle(
+                      color: Colors.white,
+                      fontSize: 18,
+                    ),
+                  ),
+                ],
+              ),
+            ),
+@@ -55,6 +58,21 @@ class HomeScreen extends StatelessWidget {
+                Navigator.pop(context);
+              },
+            ),
     );
   }
 }

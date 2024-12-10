@@ -32,7 +32,7 @@ class LoadingScreen extends StatelessWidget {
                 ),
                 const SizedBox(height: 30),
                 // Yükleme ikonu
-                const Icon(
+                Icon(
                   CupertinoIcons.arrow_2_circlepath,
                   size: 40,
                   color: Colors.blue,
@@ -43,7 +43,7 @@ class LoadingScreen extends StatelessWidget {
           children: [
             // Logo bölümü
             Expanded(
-              child: Container(
+              child: SizedBox(
                 width: 150,
                 height: 150,
                 child: Image.asset(
@@ -68,8 +68,7 @@ class LoadingScreen extends StatelessWidget {
               onTap: () => context.go("/home"),
               child: SizedBox(
                 width: 300,
-                child: DotLottieLoader.fromAsset(
-                  "assets/motions/loading.lottie",
+                child: DotLottieLoader.fromAsset("assets/motions/loading.lottie"),
                   frameBuilder: (BuildContext ctx, DotLottie? dotlottie) {
                     if (dotlottie != null) {
                       return Lottie.memory(dotlottie.animations.values.single);
