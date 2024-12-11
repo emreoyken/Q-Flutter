@@ -15,11 +15,11 @@ class HomeScreen extends StatelessWidget {
   @override
   Widget build(BuildContext context) {
     return Scaffold(
-      backgroundColor: arkaplanRenkim, // .fromARGB(255, 35, 47, 59),
-      // AppBar
+      backgroundColor: arkaplanRenkim, 
+      
       appBar: AppBar(
         backgroundColor: Colors.white,
-        title: const Text('Q'),
+        title: const Text('Hava Durumu'),
         actions: [
           IconButton(
             icon: const Icon(CupertinoIcons.app),
@@ -28,16 +28,16 @@ class HomeScreen extends StatelessWidget {
         ],
       ),
 
-      // Drawer (Yan Menü)
+      
       drawer: Drawer(
         backgroundColor: arkaplanRenkim,
         elevation: 0,
         child: Column(
           children: [
-            // Drawer Header
+         
             Container(
               height: 200,
-              // color: Colors.blue,
+             
               child: Column(
                 mainAxisAlignment: MainAxisAlignment.center,
                 children: [
@@ -50,7 +50,7 @@ class HomeScreen extends StatelessWidget {
                 ],
               ),
             ),
-            // Menü öğeleri
+       
             ListTile(
               leading: const Icon(CupertinoIcons.home),
               title: const Text('Ana Sayfa'),
@@ -84,7 +84,7 @@ class HomeScreen extends StatelessWidget {
         ),
       ),
 
-      // Ana içerik
+     
       body: Column(
         children: [
           Expanded(
@@ -93,7 +93,7 @@ class HomeScreen extends StatelessWidget {
               child: SizedBox(
                 width: double.infinity,
                 child: DotLottieLoader.fromAsset(
-                  "assets/motions/q2.lottie",
+                  "assets/motions/q2.lottie.json",
                   frameBuilder: (BuildContext ctx, DotLottie? dotlottie) {
                     if (dotlottie != null) {
                       return Lottie.memory(dotlottie.animations.values.single);
@@ -108,7 +108,7 @@ class HomeScreen extends StatelessWidget {
         ],
       ),
 
-      // Alt navigasyon çubuğu
+      
       bottomNavigationBar: BottomMenu(),
     );
   }
