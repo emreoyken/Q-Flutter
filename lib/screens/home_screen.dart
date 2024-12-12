@@ -14,9 +14,9 @@ class HomeScreen extends StatelessWidget {
   @override
   Widget build(BuildContext context) {
     return Scaffold(
-      backgroundColor: arkaplanRenkim, 
+      backgroundColor: const Color.fromARGB(255, 89, 94, 255), 
       appBar: AppBar(
-        backgroundColor: Colors.white,
+        backgroundColor: const Color.fromARGB(255, 89, 94, 255),
         title: const Text(
           'Hava Durumu',
           style: TextStyle(color: Colors.black),
