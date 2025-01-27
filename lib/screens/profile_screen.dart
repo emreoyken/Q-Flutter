@@ -35,19 +35,19 @@ class ProfileScreen extends StatelessWidget {
                   CircleAvatar(
                     radius: 50,
                     child: Text(
-                      "KA",
+                      "ETÖ",
                       style: TextStyle(fontSize: 24),
                     ),
                   ),
                   SizedBox(height: 16),
                   ListTile(
                     leading: Icon(Icons.person),
-                    title: Text("Keyvan Arasteh"),
+                    title: Text("Emre Tuğrul Öyken"),
                     subtitle: Text("Ad Soyad"),
                   ),
                   ListTile(
                     leading: Icon(Icons.email),
-                    title: Text("keyvan.arasteh@live.com"),
+                    title: Text("oykenemre@gmail.com"),
                     subtitle: Text("E-posta"),
                   ),
                 ],
