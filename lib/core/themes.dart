@@ -5,6 +5,8 @@ class ThemeProvider with ChangeNotifier {
   bool _isDark = false;
   bool get isDark => _isDark;
 
+  bool? get isDarkMode => null;
+
   void toggleTheme() {
     _isDark = !_isDark;
     notifyListeners();
