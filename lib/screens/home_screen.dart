@@ -82,6 +82,7 @@ class HomeScreen extends StatelessWidget {
               leading: const Icon(CupertinoIcons.settings),
               title: const Text('Ayarlar'),
               onTap: () {
+                context.go("/voice");
                 Navigator.pop(context);
               },
             ),
