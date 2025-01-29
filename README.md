@@ -15,6 +15,7 @@ Kullanıcıların hava durumu bilgilerine hızlı ve kullanıcı dostu bir şeki
 ## Özellikler
 - [Günlük Hava Durumu Bilgisi (Hangi Gün Hangi Saat)]
 - [Konum Bazlı Hava Durumu]
+- [Hava Durumuna Göre Aktivite Önerisi]
 - [Hava Durumu Uyarıları]
 
 ## Kullanılan Teknolojiler
