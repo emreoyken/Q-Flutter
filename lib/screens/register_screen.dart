@@ -64,7 +64,7 @@ class _RegisterScreenState extends State<RegisterScreen> {
               SizedBox(height: 24),
               FilledButton(
                 onPressed: () {
-                  context.go("/register");
+                  context.go("/loading");
                 },
                 style: FilledButton.styleFrom(
                   minimumSize: Size(double.infinity, 50),
@@ -72,7 +72,7 @@ class _RegisterScreenState extends State<RegisterScreen> {
                     borderRadius: BorderRadius.circular(10),
                   ),
                 ),
-                child: const Text("OKayit l", style: TextStyle(fontSize: 16)),
+                child: const Text("Ana Sayfa", style: TextStyle(fontSize: 16)),
               ),
               SizedBox(height: 12),
               OutlinedButton(
