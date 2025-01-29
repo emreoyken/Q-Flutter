@@ -46,10 +46,9 @@ class HomeScreen extends StatelessWidget {
               child: Column(
                 mainAxisAlignment: MainAxisAlignment.center,
                 children: [
-                  const Icon(
-                    CupertinoIcons.person_circle,
-                    size: 80,
-                    color: Colors.black87,
+                    CircleAvatar(
+                    radius: 50,
+                    backgroundImage: AssetImage("assets/icons/Emre.muhammet.jpg"),            
                   ),
                   const SizedBox(height: 10),
                 ],

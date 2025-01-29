@@ -24,7 +24,7 @@ class ProfileScreen extends StatelessWidget {
           ),
         ],
       ),
-      body: ListView(
+   body: ListView(
         padding: EdgeInsets.all(16),
         children: [
           Card(
@@ -34,10 +34,7 @@ class ProfileScreen extends StatelessWidget {
                 children: [
                   CircleAvatar(
                     radius: 50,
-                    child: Text(
-                      "X",
-                      style: TextStyle(fontSize: 24),
-                    ),
+                    backgroundImage: AssetImage("assets/icons/Emre.muhammet.jpg"), 
                   ),
                   SizedBox(height: 16),
                   ListTile(
