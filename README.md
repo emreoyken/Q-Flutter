@@ -62,7 +62,7 @@ lib/
 
 
 ## Ekran Görüntüleri
- [Uygulama ekran görüntüleri buraya eklenecek]
+![Image](https://github.com/user-attachments/assets/56a1289b-bdc2-427e-8dc8-516b9401e30c)
 
 ## Projeye Katkı Sağlama
 
