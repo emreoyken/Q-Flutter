@@ -63,6 +63,13 @@ lib/
 
 ## Ekran Görüntüleri
 ![Image](https://github.com/user-attachments/assets/56a1289b-bdc2-427e-8dc8-516b9401e30c)
+![Image](https://github.com/user-attachments/assets/9a020996-9517-4dab-9497-2a0248f7d8bc)
+![Image](https://github.com/user-attachments/assets/d74847bb-8ae5-40ca-8e6c-fe16170ff605)
+![Image](https://github.com/user-attachments/assets/acb65346-3648-4bb5-80cf-c6f1db86d00a)
+![Image](https://github.com/user-attachments/assets/76a99a9d-b6c9-42e8-bce9-376cd30ed3a6)
+![Image](https://github.com/user-attachments/assets/4f14cb8a-0e89-46e4-8c87-6d5b324722aa)
+![Image](https://github.com/user-attachments/assets/7e50888e-adf6-4574-9324-a92e07ff1d5e)
+![Image](https://github.com/user-attachments/assets/271c88f6-b025-4bbe-88f1-e0cf6b5c3c5d)
 
 ## Projeye Katkı Sağlama
 
