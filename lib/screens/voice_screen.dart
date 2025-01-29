@@ -77,14 +77,14 @@ class VoiceScreen extends StatelessWidget {
                           ActionCard(
                             icon: Icons.login,
                             title: "Giriş Yap",
-                            color: Theme.of(context).colorScheme.secondary,
+                            color: Theme.of(context).primaryColorDark,
                             onTap: () => context.push("/login"),
                           ),
                           ActionCard(
                             icon: Icons.app_registration,
                             title: "Kayıt Ol",
-                            color: Theme.of(context).colorScheme.tertiary,
-                            onTap: () => context.go("/register"),
+                            color: Theme.of(context).colorScheme.primary,
+                            onTap: () => context.go("/"),
                           ),
                           ActionCard(
                             icon: Icons.delete,

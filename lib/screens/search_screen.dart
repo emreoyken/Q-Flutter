@@ -10,9 +10,21 @@ class SearchScreen extends StatelessWidget {
   Widget build(BuildContext context) {
     return Scaffold(
       backgroundColor: arkaplanRenkim, 
-
+      appBar: AppBar(
+        backgroundColor: Colors.transparent, 
+        elevation: 0,  
+        title: TextField(
+          decoration: InputDecoration(
+            hintText: "Arama yap...",
+            border: InputBorder.none,  
+            prefixIcon: Icon(Icons.search),  
+            
+          ),
+          style: TextStyle(color: const Color.fromARGB(255, 0, 0, 0)),  
+        ),
+      ),
       body: Center(
-        child: Text("arama ekranim"),
+        child: Text(""),
       ),
       bottomNavigationBar: BottomMenu(),
     );

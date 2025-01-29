@@ -1,6 +1,6 @@
-
-import 'package:flutter/material.dart';
 import 'package:go_router/go_router.dart';
+import 'package:flutter/material.dart';
+
 
 class RegisterScreen extends StatefulWidget {
   const RegisterScreen({super.key});
@@ -64,7 +64,7 @@ class _RegisterScreenState extends State<RegisterScreen> {
               SizedBox(height: 24),
               FilledButton(
                 onPressed: () {
-                  context.go("/home");
+                  context.go("/register");
                 },
                 style: FilledButton.styleFrom(
                   minimumSize: Size(double.infinity, 50),
@@ -72,7 +72,7 @@ class _RegisterScreenState extends State<RegisterScreen> {
                     borderRadius: BorderRadius.circular(10),
                   ),
                 ),
-                child: const Text("Kayit Ol", style: TextStyle(fontSize: 16)),
+                child: const Text("OKayit l", style: TextStyle(fontSize: 16)),
               ),
               SizedBox(height: 12),
               OutlinedButton(
