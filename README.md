@@ -8,11 +8,15 @@
 Kullanıcıların hava durumu bilgilerine hızlı ve kullanıcı dostu bir şekilde erişmelerini sağlamak, farklı şehirlerdeki hava durumu verilerini sunmak ve basit, etkili bir deneyim sunmak. 
 
 ## Ekibimiz 
-- **Danışman:** 
+- **Danışman:https://github.com/keyvanarasteh (Keyvan Arasteh)
+- **Takım Lideri:Emre Tuğrul Öyken (https://github.com/emreoyken)
+- **Takım Üyeleri:Muhammet Özmen ((https://github.com/Mamio0)
 
-https://github.com/keyvanarasteh (Keyvan Arasteh)
+
+
 - **Takım Üyeleri**:
 [GİT HUB](https://github.com/emreoyken)
+[GİT HUB](https://github.com/Mamio0)
 
 ## Özellikler
 - [Günlük Hava Durumu Bilgisi (Hangi Gün Hangi Saat)]
