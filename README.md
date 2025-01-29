@@ -79,6 +79,10 @@ lib/
 ![Image](https://github.com/user-attachments/assets/4e4bcf43-72d3-49f7-9238-e3321b58d84b)
 ![Image](https://github.com/user-attachments/assets/a19e590c-8b02-4dd4-91f3-2d19bfd7a74e)
 
+
+**UYGULAMAMIZIN DEMO VİDEOSUNU EKTEKİ LİNKTEN BAKABİLİRSİNİZ** 
+*https://drive.google.com/file/d/1PhsJ0A3sH1lbWUss01OA56p_UFYfBlEC/view*
+
 ## Projeye Katkı Sağlama
 
 1. Projeyi forklayın
