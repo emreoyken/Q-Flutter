@@ -84,6 +84,8 @@ lib/
 **UYGULAMAMIZIN DEMO VİDEOSUNU EKTEKİ LİNKTEN BAKABİLİRSİNİZ** 
 *https://drive.google.com/file/d/1PhsJ0A3sH1lbWUss01OA56p_UFYfBlEC/view*
 
+https://github.com/user-attachments/assets/3c2ecb6e-d3e7-40de-a295-b1772c9a83a1
+
 ## Projeye Katkı Sağlama
 
 1. Projeyi forklayın
